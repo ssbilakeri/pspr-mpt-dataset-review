@@ -1,0 +1,6 @@
+dataset_category,count,description
+Detection-support dataset,8,"Role-specific entries for datasets used mainly for detector training, pedestrian localization, or multi-camera detection support before tracking."
+Person Re-ID/person-search dataset,9,"Role-specific entries for image-based Re-ID, video-based Re-ID, and person-search datasets used for identity representation and appearance-based association."
+Core tracking benchmark,20,"Role-specific entries for trajectory-level tracking benchmarks, including single-camera, multi-camera, crowded-scene, driving, sports, long-term/open-world, head-tracking, and synthetic settings."
+Total dataset-role entries,37,"Total number of rows in datasets_master.csv, following the manuscript table organization."
+Unique datasets after merging repeated WildTrack/WILDTRACK role entries,36,WildTrack/WILDTRACK appears in both detection-support and core tracking contexts; the unique dataset count is therefore 36 if duplicate role entries are merged.
